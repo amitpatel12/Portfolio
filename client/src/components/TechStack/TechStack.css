@@ -1,0 +1,88 @@
+.techstack-section{
+    margin-top: 40px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.section-title h5{
+    text-align: center;
+}
+
+.tech-content{
+    padding: 15px;
+    color: black;
+    margin-top: 50px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-content-marked{
+    background-color: tomato;
+    color: white;
+}
+
+.tech-content p{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 20px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+.tech-content:hover{
+    background-color: tomato;
+    color: white;
+    box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+    -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+    transition-duration: 1s;
+}
+
+.tech-number{
+    border-radius: 90px;
+    height: 50px;
+    color: white;
+    width: 50px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 50px;
+    margin-top: -35px;
+}
+
+.load-more-tech-stack{
+    background-color: tomato;
+    width: 150px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    display: table;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.load-more-tech-stack:hover{
+    background-color: blueviolet;
+    transition-duration: 1s;
+}
+
+#dark .tech-content{
+    background-color: #38004c;
+    color: white;
+    box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+    -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+}
+
+#dark .tech-content:hover{
+    background-color: rgb(38, 3, 3);
+    transition-duration: 1s;
+}

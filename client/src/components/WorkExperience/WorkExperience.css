@@ -1,0 +1,42 @@
+
+
+.work-experience-section{
+ margin-top: 50px;
+}
+.tech-skills p{
+    background-color: black;
+    border-radius: 90px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 13px;
+    /* font-weight: 300; */
+}
+
+.tech-skills p:hover{
+    background-color: gold;
+    color: black;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+.timeline-section{
+    margin-top: 35px;
+}
+
+
+
+.data-class{
+    color: black;
+    font-weight:bold;
+}
+
+.work-des{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+#dark .data-class{
+    color: white;
+}
